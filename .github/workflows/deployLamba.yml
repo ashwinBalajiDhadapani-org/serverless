@@ -28,7 +28,7 @@ jobs:
         run: ls -lart
 
       - name: create a zip
-        run: zip -r csye6225-lambda-${{ github.sha }}.zip index.js
+        run: zip -r csye6225-lambda-${{ github.sha }}.zip emailVerification.js
 
       - name: move artifacts to s3
         run: |
