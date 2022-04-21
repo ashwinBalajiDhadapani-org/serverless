@@ -36,7 +36,7 @@ exports.emailVerification = (event, context, callback) => {
                     Message: {
                         Body: {
                             Text: {
-                                Data: "Verify your email  http://prod.ashwinbalaji-dhandapani.xyz/v1/verifyUserEmail?email=" + emailId + "&token=" + tokenValue
+                                Data: "Verify your email  https://prod.ashwinbalaji-dhandapani.xyz/v1/verifyUserEmail?email=" + emailId + "&token=" + tokenValue
                             }
                         },
                         Subject: {
