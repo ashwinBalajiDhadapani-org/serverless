@@ -1,7 +1,7 @@
 name: s3 Artifact - codedeploy
 on:
   push:
-    branches: [main]
+    branches: [test]
 
 jobs:
   publish-s3-artifact-and-deploy:
